@@ -6,10 +6,22 @@
 
 .home_bannerInfo {
   background-color: red;
-  color: white;
+  position: relative;
+  top: 150px;
 }
 
 .home_bannerInfo > h1 {
   line-height: 68px;
-  font-family:
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-family: var(--mont500);
+}
+
+.home_bannerInfo > h2 {
+  line-height: 22px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-family: var(--mont500);
 }
