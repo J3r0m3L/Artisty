@@ -1,0 +1,70 @@
+.navbar {
+  display: flex;
+  background-color: var(--trim);
+  font-family: var(--mont500);
+  color: var(--text1);
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.navbar > h1 {
+  font-size: 24px;
+  margin: 0 60px;
+  padding: 0 20px;
+  font-weight: 500;
+}
+
+.navbar > h1:hover {
+  cursor: pointer;
+  background-color: var(--text1);
+  color: var(--trim);
+  transition: ease-out 0.2s;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-weight: 500;
+}
+
+
+.navbar_options {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_options > h2 {
+  font-size: 16px;
+  margin: 0 18.25px;
+  padding: 0 18.25px;
+  font-weight: 500;
+}
+
+.navbar_options > h2:hover {
+  cursor: pointer;
+  background-color: var(--text1);
+  color: var(--trim);
+  transition: ease-out 0.2s;
+  border-radius: 5px;
+  padding: 5px 18.25px;
+  font-weight: 500;
+}
+
+
+.navbar_options > button {
+  border: none;
+  background-color: var(--text1);
+  color: var(--trim);
+  border: 2px solid var(--text1);
+  margin: 0 122px 0 18.25px;
+  padding: 14px 59px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar_options > button:hover {
+  cursor: pointer;
+  background-color: var(--trim);
+  color: var(--text1);
+  transition: ease-out 0.2s;
+  font-weight: 500;
+}

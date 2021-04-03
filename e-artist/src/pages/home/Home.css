@@ -1,0 +1,15 @@
+.home_banner {
+  background-image:url(../../images/Banner.jfif);
+  background-size: cover;
+  height: 650px;
+}
+
+.home_bannerInfo {
+  background-color: red;
+  color: white;
+}
+
+.home_bannerInfo > h1 {
+  line-height: 68px;
+  font-family:
+}
