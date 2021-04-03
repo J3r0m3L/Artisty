@@ -2,6 +2,9 @@ import React from 'react';
 import Navbar from './components/Navbar.js';
 import Home from './pages/home/Home.js';
 import Signup from './pages/signup/Signup.js';
+import Upload from './pages/upload/Upload.js';
+import Landing from './pages/landing/Landing.js';
+import Footer from './components/Footer.js';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -16,13 +19,14 @@ function App() {
       {/*Navbar*/}
         <Navbar/>
         <Switch>
-          <Route path="/landing">{/*landing*/}</Route>
+          <Route path="/landing"><Landing/></Route>
           <Route path="/leaderboard">{/*leaderboard*/}</Route>
           <Route path="/signup"><Signup/></Route>
-          <Route path="/upload">{/*upload*/}</Route>
+          <Route path="/upload"><Upload/></Route>
           {/*Footer*/}
           <Route path="/"><Home/></Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

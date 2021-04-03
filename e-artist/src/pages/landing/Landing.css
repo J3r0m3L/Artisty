@@ -1,0 +1,86 @@
+.landing {
+  height: 870px;
+}
+
+.landing > h1{
+  font-family: var(--mont500);
+  font-weight: 700;
+  line-height: 35px;
+  font-size: 30px;
+  margin: 33.5px;
+  text-align: center;
+}
+
+.landing_upper {
+  display: flex;
+  justify-content: center;
+  margin-top: 79px;
+}
+
+.landing_banners {
+  display: flex;
+  margin-left: 50px;
+}
+
+.landing_banner {
+  height: 395px;
+  width: 423.53px;
+}
+
+.landing_description {
+  margin: 36px;
+}
+
+.landing_description > h1 {
+  text-align: center;
+  font-family: var(--mont500);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  margin: 9.5px;
+}
+
+.landing_description > p {
+  text-align: center;
+  font-family: var(--mont500);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  width: 560px;
+  margin-top: 30px;
+}
+
+.landing > button {
+  background-color: var(--trim);
+  color: var(--text1);
+  border: 2px solid var(--trim);
+  padding: 14px 59px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  margin: 43px auto 0;
+
+}
+
+.landing > button:hover {
+  cursor: pointer;
+  background-color: var(--text1);
+  color: var(--trim);
+  transition: ease-out 0.2s;
+  font-weight: 500;
+}
+
+.landing > p {
+  text-align: center;
+  border: 2px solid var(--trim);
+  display: block;
+  width: 600px;
+  display: block;
+  margin: 45px auto;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: var(--mont500);
+  font-weight: 400;
+  font-size: 16px;
+}
