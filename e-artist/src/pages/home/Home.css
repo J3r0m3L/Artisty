@@ -1,27 +1,342 @@
 .home_banner {
-  background-image:url(../../images/Banner.jfif);
+  background-image:url(../../images/Rectangle 33.png);
   background-size: cover;
+	background-repeat: no-repeat;
   height: 650px;
+	/* width: 1440px; */
 }
 
 .home_bannerInfo {
-  background-color: red;
+  /* background-color: red; */
   position: relative;
-  top: 150px;
+  /* top: 150px; */
 }
 
 .home_bannerInfo > h1 {
-  line-height: 68px;
-  text-align: center;
-  color: white;
-  font-weight: 700;
-  font-family: var(--mont500);
+/* Art is beautiful, Art is life, Buy Arts */
+
+position: absolute;
+width: 704px;
+height: 136px;
+left: 359px;
+top: 150px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 68px;
+/* or 136% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+
 }
 
 .home_bannerInfo > h2 {
-  line-height: 22px;
-  text-align: center;
-  color: white;
-  font-weight: 400;
-  font-family: var(--mont500);
+  /* Browse our collection to find the masterpiece that you desire or Join us today to start selling. */
+
+position: absolute;
+width: 755px;
+height: 83px;
+left: 347px;
+top: 310px;
+
+font-family: var(--mont500);
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 35px;
+/* or 159% */
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+
 }
+
+.group-84 {
+	/* Group 84 */
+
+position: absolute;
+width: 489px;
+height: 50px;
+/* left: 476px; */
+top: -110px;
+}
+
+
+/* Button1 */
+.button1 {
+position: absolute;
+width: 225px;
+height: 50px;
+left: 476px;
+top: 510px;
+
+background: #C5801A;
+border-radius: 10px;
+	border:none;
+}
+/* Button2 */
+.button2 {
+position: absolute;
+width: 225px;
+height: 50px;
+left: 740px;
+top: 510px;
+
+background: #FFFFFF;
+border-radius: 10px;
+	border:none;
+}
+
+.search {
+position: absolute;
+/* width: 1440px; */
+height: 167px;
+left: 0px;
+top: 750px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.group87 {
+	position: absolute;
+width: 1097px;
+height: 50px;
+left: 172px;
+top: 58px;
+}
+
+.rectangle35 {
+	position: absolute;
+/* width: 1440px; */
+height: 167px;
+left: 0px;
+/* top: 750px; */
+
+background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.group86 {
+	position: absolute;
+width: 419px;
+height: 50px;
+left: 0px;
+/* top: 808px; */
+}
+.rectangle36 {
+	position: absolute;
+width: 419px;
+height: 50px;
+
+background: #FFFFFF;
+border: 1px solid #C5801A;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.group85 {
+	position: absolute;
+width: 419px;
+height: 50px;
+left: 436px;
+/* top: 808px; */
+
+}
+.rectangle37 {
+	position: absolute;
+width: 419px;
+height: 50px;
+
+background: #FFFFFF;
+border: 1px solid #C5801A;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.search-button {
+	position: absolute;
+width: 225px;
+height: 50px;
+	left: 872px;
+
+background: #C5801A;
+border-radius: 8px;
+	border: none;
+}
+
+.search-button:focus {
+  box-shadow: 0px 3px 3px  rgba(162, 42, 42, .12),
+  			  0px 2px 2px  rgba(162, 42, 42, .12),
+  			  0px 4px 4px  rgba(162, 42, 42, .12),
+  			  0px 8px 8px  rgba(162, 42, 42, .12),
+  			  0px 16px 16px  rgba(162, 42, 42, .12);
+	transition: .08s linear .08s;
+	outline: none;
+}
+
+.featured-artworks {
+	position: absolute;
+width: 1318px;
+height: 399px;
+left: 122px;
+top: 968px;
+}
+
+.featured-artworks> h1 {
+	position: absolute;
+width: 232px;
+height: 29px;
+/* left: 122px; */
+/* top: 979px; */
+
+font-family: var(--mont500);
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.button3 {
+	position: absolute;
+width: 140px;
+height: 50px;
+left: 1050px;
+/* top: 968px; */
+
+background: #FFFFFF;
+border: 1px solid #C5801A;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.frame-97 {
+	position: absolute;
+width: 1318px;
+height: 322px;
+/* left: 122px; */
+top: 7px;
+/* overflow-x: scroll; */
+	padding: 15px;
+}
+
+.group88 {
+	position: absolute;
+width: 260px;
+height: 317px;
+left: 0px;
+top: 70px;
+}
+.group89 {
+	position: absolute;
+width: 260px;
+height: 317px;
+left: 290px;
+top: 70px;
+}
+
+.group90 {
+	position: absolute;
+width: 260px;
+height: 317px;
+left: 577px;
+top: 70px;
+}
+
+.group91 {
+	position: absolute;
+width: 260px;
+height: 317px;
+left: 864px;
+top: 70px;
+}
+
+.rectangle38 {
+	position: absolute;
+width: 260px;
+height: 260px;
+left: 0px;
+top: 0px;
+
+background: url(../../images/Rectangle 38.png), #C4C4C4;
+border-radius: 8px;
+}
+.rectangle39 {
+	position: absolute;
+width: 260px;
+height: 260px;
+left: 0px;
+top: 0px;
+
+background: url(../../images/Rectangle 39.png), #C4C4C4;
+border-radius: 8px;
+}
+.rectangle40 {
+	position: absolute;
+width: 260px;
+height: 260px;
+left: 0px;
+top: 0px;
+
+background: url(../../images/Rectangle 40.png), #C4C4C4;
+border-radius: 8px;
+}
+
+.rectangle41 {
+	position: absolute;
+width: 260px;
+height: 260px;
+left: 0px;
+top: 0px;
+
+background: url(../../images/Rectangle 41.png), #C4C4C4;
+border-radius: 8px;
+}
+
+
+/* Explore Artworks */
+/* 
+position: absolute;
+width: 139px;
+height: 20px;
+left: 43px;
+top: 15px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #FFFFFF; */
+
+
+
+
+
+
+/* Start selling */
+/* 
+position: absolute;
+width: 98px;
+height: 20px;
+left: 64px;
+top: 15px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #C5801A; */
