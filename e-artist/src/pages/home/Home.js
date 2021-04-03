@@ -11,8 +11,8 @@ function Home() {
           <h1>Art is beautiful, Art is life<br />Buy Arts</h1>
           <h2>Browse our collection to find the masterpiece that you desire or <br />Join us today to start selling</h2>
           <div className='group-84'>
-            <button class="button1">Explore Artworks</button>
-            <button class="button2">Start Selling</button>
+            <button class="button1"><p>Explore Artworks</p></button>
+            <button class="button2"><p>Start Selling</p></button>
           </div>
         </div>
       </div>
@@ -63,6 +63,28 @@ function Home() {
 			  </div>
 		  </div>
       {/*Top Artists*/}
+		  <div class="top-artists">
+			  <h1>Top Artists</h1>
+			  <button class="button3"></button>
+			  <div class="frame-98">
+				  <div class="group97">
+					  <div class="ellipse1">
+					  </div>
+				  </div>
+				  <div class="group98">
+					  <div class="ellipse2">
+					  </div>
+				  </div>
+				  <div class="group99">
+					  <div class="ellipse3">
+					  </div>
+				  </div>
+				  <div class="group100">
+					  <div class="ellipse4">
+					  </div>
+				  </div>
+			  </div>
+		  </div>
       {/*Categories*/}
     </div>
   );
