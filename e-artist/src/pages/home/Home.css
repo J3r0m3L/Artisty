@@ -178,6 +178,60 @@ border: 1px solid #C5801A;
 box-sizing: border-box;
 border-radius: 8px;
 }
+.rectangle36>h4 {
+	position: absolute;
+width: 242px;
+height: 20px;
+left: 40px;
+top: 14px;
+
+font-family: var(--mont500);
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #333333;
+
+}
+.search-button>h4 {
+	position: absolute;
+width: 56px;
+height: 20px;
+left: 85px;
+top: 15px;
+
+font-family: var(--mont500);
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.rectangle37>h4 {
+	position: absolute;
+width: 242px;
+height: 20px;
+left: 40px;
+top: 14px;
+
+font-family: var(--mont500);
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #333333;
+
+}
 
 .group85 {
 	position: absolute;
@@ -227,7 +281,7 @@ left: 100px;
 top: 1000px;
 }
 
-.featured-artworks> h1, .top-artists>h1 {
+.featured-artworks> h1, .top-artists>h1, .categories>h1 {
 	position: absolute;
 width: 350px;
 height: 29px;
@@ -254,7 +308,16 @@ background: #FFFFFF;
 border: 1px solid #C5801A;
 box-sizing: border-box;
 border-radius: 8px;
+	
 }
+.button3 >h4{
+	font-family: var(--mont500);
+	font-weight: 500;
+	font-size: 20px;
+	color: #C5801A;
+}
+
+
 
 .frame-97 {
 	position: absolute;
@@ -265,6 +328,9 @@ top: 7px;
 /* overflow-x: scroll; */
 	padding: 0px 15px;
 	margin-top: 10px;
+	color:black;
+	font-family: var(--mont500);
+	font-weight: 500;
 }
 
 .group88 {
@@ -347,6 +413,14 @@ height: 407.79px;
 left: 100px;
 top: 1450px;
 }
+.categories {
+	position: absolute;
+width: 1191px;
+height: 407.79px;
+left: 100px;
+top: 1880px;
+	margin-bottom: 50px;
+}
 
 .frame-98 {
 	position: absolute;
@@ -356,6 +430,146 @@ height: 322px;
 top: 7px;
 /* overflow-x: scroll; */
 	padding: 15px;
+}
+
+.frame-99 {
+	position: absolute;
+width: 1197px;
+height: 800px;
+	top: 60px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.frame-100 {
+	position: absolute;
+width: 1197px;
+height: 772px;
+	top: 60px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.frame-101 {
+	position: absolute;
+width: 10px;
+height: 90px;
+left: 0px;
+top: 1586px;
+
+background: #FFFFFF;
+}
+
+
+.paint {
+	position: absolute;
+width: 590px;
+height: 356px;
+top: 25px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+border-radius: 20px;
+}
+.paint2 {
+	position: absolute;
+width: 590px;
+height: 729px;
+top: 778px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+border-radius: 20px;
+}
+.oil {
+	position: absolute;
+width: 590px;
+height: 356px;
+top: 400px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+border-radius: 20px;
+}
+
+.landscape {
+	position: absolute;
+width: 590px;
+height: 729px;
+	top: 26px;
+	left: 607px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+border-radius: 20px;
+}
+.landscape2 {
+	position: absolute;
+width: 590px;
+height: 356px;
+left: 607px;
+top: 778px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+border-radius: 20px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.landscape-img {
+	position: absolute;
+width: 590px;
+height: 729px;
+
+background: url(../../images/Rectangle 45.png);
+border-radius: 20px;
+}
+.landscape2-img {
+	position: absolute;
+width: 590px;
+height: 356px;
+
+background: url(../../images/Rectangle 47.png);
+border-radius: 20px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.oil-img {
+	position: absolute;
+width: 590px;
+height: 356px;
+
+background: url(../../images/Rectangle 44.png);
+border-radius: 20px;
+}
+.paint-img {
+	position: absolute;
+width: 590px;
+height: 356px;
+
+background: url(../../images/Rectangle 43.png);
+border-radius: 20px;
+}
+.paint2-img {
+	position: absolute;
+width: 590px;
+height: 729px;
+
+background: url(../../images/Rectangle 46.png);
+border-radius: 20px;
+}
+
+.nature {
+	position: absolute;
+width: 590px;
+height: 356px;
+left: 607px;
+top: 1151px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+border-radius: 20px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.nature-img {
+	position: absolute;
+width: 590px;
+height: 356px;
+
+background: url(../../images/Rectangle 48.png);
+border-radius: 20px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .group97 {

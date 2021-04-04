@@ -23,16 +23,16 @@ function Home() {
 				<div class="group87">
 					<div class="group86">
 				  <div class="rectangle36">
-					  
+					 <h4> Search by name, artist</h4>
 				  </div>
 				</div>
 					<div class="group85">
 				  <div class="rectangle37">
-					  
+					  <h4> Choose category</h4>
 				  </div>
 				</div>
 					<div class="">
-						<button class="search-button"></button>
+						<button class="search-button"><h4>Search</h4></button>
 					</div>
 					
 				</div>
@@ -42,7 +42,7 @@ function Home() {
       {/*Featured Artworks*/}
 		  <div class="featured-artworks">
 			  <h1>Featured Artworks</h1>
-			  <button class="button3"></button>
+			  <button class="button3"><h4>View All</h4></button>
 			  <div class="frame-97">
 				  <div class="group88">
 					  <div class="rectangle38">
@@ -65,7 +65,7 @@ function Home() {
       {/*Top Artists*/}
 		  <div class="top-artists">
 			  <h1>Top Artists</h1>
-			  <button class="button3"></button>
+			  <button class="button3"><h4>View All</h4></button>
 			  <div class="frame-98">
 				  <div class="group97">
 					  <div class="ellipse1">
@@ -86,6 +86,46 @@ function Home() {
 			  </div>
 		  </div>
       {/*Categories*/}
+		  <div class="categories">
+			  <h1>Categories</h1>
+			  <button class="button3"><h4>View All</h4></button>
+			  <div class="frame-99">
+				  <div class="paint">
+					  <div class="paint-img">
+					  </div>
+				  </div>
+				  <div class="oil">
+					  <div class="oil-img">
+					  </div>
+				  </div>
+				  <div class="landscape">
+					  <div class="landscape-img">
+					  </div>
+				  </div>
+			  </div>
+			  
+			  <div class="frame-100">
+				  <div class="paint2">
+					  <div class="paint2-img">
+					  </div>
+				  </div>
+				  <div class="nature">
+					  <div class="nature-img">
+					  </div>
+				  </div>
+				  <div class="landscape2">
+					  <div class="landscape2-img">
+					  </div>
+				  </div>
+			  </div>
+			  
+			  <div class="frame-101">
+				
+			  </div>
+			  
+			  
+		  </div>
+		  
     </div>
   );
 }
